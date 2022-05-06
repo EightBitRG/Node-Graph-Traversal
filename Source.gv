@@ -1,0 +1,12 @@
+digraph G {
+   A -> B [label="2.0",weight="2.0"];
+   A -> F [label="9.0",weight="9.0"];
+   B -> C [label="8.0",weight="8.0"];
+   B -> D [label="15.0",weight="15.0"];
+   B -> F [label="6.0",weight="6.0"];
+   C -> D [label="1.0",weight="1.0"];
+   E -> C [label="7.0",weight="7.0"];
+   E -> D [label="3.0",weight="3.0"];
+   F -> B [label="6.0",weight="6.0"];
+   F -> E [label="3.0",weight="3.0"];
+}
